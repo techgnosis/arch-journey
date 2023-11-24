@@ -4,7 +4,7 @@ the docs just have
 
 but you should do
 
-`pacstrap -K /mnt base linux linux-firmware micro amd-ucode`
+`pacstrap -K /mnt base linux linux-firmware micro intel-ucode`
 
 * Gives you a text editor whne finishing the install
 * Gives you microcode updates for when you are configuring your kernel boot flags
