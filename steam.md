@@ -1,10 +1,15 @@
 use the flatpak
 
-I need to learn what gamescope is
+don't try to run it without X-Wayland
+
 
 https://wiki.archlinux.org/title/Steam
+https://www.reddit.com/r/linux_gaming/comments/sok9zw/how_to_use_fsr_on_any_steam_game_with_gamescope/
 
-https://www.reddit.com/r/voidlinux/comments/14mt2yi/steam_flatpak_cant_launch_any_games/
-this thread mentions that flatpak steam works fine with sway
+flatpak --user install com.valvesoftware.Steam
+flatpak --user install org.freedesktop.Platform.VulkanLayer.gamescope
 
-dbus-run-session -- flatpak run com.valvesoftware.Steam
+Then in Steam, edit the game properties and make it run
+`gamescope -- %command%`
+
+This will let you exit the game without crashing weston
