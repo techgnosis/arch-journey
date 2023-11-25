@@ -5,6 +5,7 @@ don't try to run it without X-Wayland
 
 https://wiki.archlinux.org/title/Steam
 https://www.reddit.com/r/linux_gaming/comments/sok9zw/how_to_use_fsr_on_any_steam_game_with_gamescope/
+https://github.com/ValveSoftware/gamescope
 
 flatpak --user install com.valvesoftware.Steam
 flatpak --user install org.freedesktop.Platform.VulkanLayer.gamescope
