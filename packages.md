@@ -1,5 +1,13 @@
 gnu-free-fonts
-pipewire
+xdg-desktop-portal-gtk
 weston
+flatpak
+xorg-xwayland
+
+pipewire
+pipewire-audio
 micro
 intel-ucode
+
+which
+sudo
