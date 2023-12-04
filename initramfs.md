@@ -25,3 +25,6 @@ This generates a cpio archive that is the same size on disk as the one that Arch
 cpio --extract --file file
 that will unpack to current directory
 its a file system, as expected
+
+
+https://www.baeldung.com/linux/initrd-vs-initramfs
