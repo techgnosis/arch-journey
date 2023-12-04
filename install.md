@@ -4,8 +4,9 @@ the docs just have
 
 but you should do
 
-`pacstrap -K /mnt base linux linux-firmware micro intel-ucode`
+`pacstrap -K /mnt base linux linux-firmware micro intel-ucode efibootmgr`
 
-* Gives you a text editor whne finishing the install
-* Gives you microcode updates for when you are configuring your kernel boot flags
+* `micro` provides a text editor whne finishing the install
+* `intel-ucode` provides microcode updates for when you are configuring your kernel boot flags
+* `efibootmgr`
 

@@ -1,13 +1,10 @@
-gnu-free-fonts
-xdg-desktop-portal-gtk
-weston
+xdg-desktop-portal-wlr
+sway
 flatpak
 xorg-xwayland
 
 pipewire
 pipewire-audio
-micro
-intel-ucode
 
 which
 sudo
