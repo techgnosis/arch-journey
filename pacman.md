@@ -1,6 +1,12 @@
 # install
 pacman -S package_name
 
+# update package info
+pacman -Sy
+
+# upgrade everything
+pacman -Syu
+
 # remove and leave orphans
 pacman -R package_name
 
